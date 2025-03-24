@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dika Website dot com</title>
+    <link rel="stylesheet" href="" />
+    <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
+    <style>
+      * {
+        /* border: 1px solid red; */
+        margin: 0;
+        padding: 0;
+      }
+
+      .subtitle {
+        padding-bottom: 0.5rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid black;
+      }
+
+      .container {
+        padding: 1.3rem 7%;
+        height: fit-content;
+        width: auto;
+        background-color: #cbd9e6;
+        color: white;
+        font-family: sans-serif;
+      }
+      .container b {
+        font-size: 25px;
+      }
+      .container i {
+        font-size: 25px;
+      }
+      .container u {
+        font-size: 25px;
+      }
+      .container a {
+        color: white;
+        text-decoration: none;
+      }
+      .container h1 {
+        font-size: 40px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      .container .header {
+        display: flex;
+        flex-direction: column;
+        background-color: #567c8d;
+        border-radius: 20px;
+        justify-items: center;
+        align-items: center;
+      }
+      .container .header h1 {
+        color: #f5efeb;
+      }
+      .container .header h1 span {
+        color: coral;
+      }
+      .tentang-saya .content {
+        display: flex;
+        gap: 20px;
+      }
+      .tentang-saya .content .left {
+        background-color: #567c8d;
+        padding: 1.5rem;
+        border-radius: 20px;
+      }
+      .tentang-saya .content .quote {
+        font-size: 3rem;
+        text-align: center;
+        color: #cbd9e6;
+      }
+      .tentang-saya .content .quote p {
+        font-size: 2rem;
+        text-align: center;
+      }
+      .tentang-saya img {
+        height: 28rem;
+        border-radius: 20px;
+        border: 2px solid #2f4156;
+      }
+      .kontak .content a {
+        font-size: 1.5rem;
+        color: black;
+      }
+      .hobby .content li {
+        font-size: 1.5rem;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>LET ME</h2>
+        <h1>INTRODUCE <span>MYSELF</span></h1>
+      </div>
+      <br /><br />
+      <div class="tentang-saya">
+        <h2 class="subtitle" style="color: #2f4156">Tentang Saya</h2>
+        <div class="content">
+          <div class="left">
+            <p>
+              <b>HELLO...</b> nama saya <b>Andhika Gusti Al-Fahrezi</b> dan saya
+              berasal dari <b>Jakarta.</b>
+            </p>
+            <p>
+              Saya sedang mengejar gelar <i>S1 Sistem Informasi</i> di
+              <i>Universitas Brawijaya</i>
+            </p>
+            <p>
+              Di Malang, saya tinggal di <u>kosan</u> yang berada di daerah
+              <a href="https://maps.app.goo.gl/SN1QRj1nUz7ozCCD7"
+                ><u><b>Suhat (click to view).</b></u></a
+              >
+            </p>
+            <br/><br/>
+            <div class="quote">
+              <q>
+                Lakukan apa yang kau mau sekarang, saat hatimu menyerah jangan kau lawan
+              </q>
+              <p>- Hindia</p>
+            </div>
+          </div>
+          <div class="right">
+            <img src="dikoy_1.jpg" alt="cecilion eak" ; />
+          </div>
+        </div>
+      </div>
+      <br/><br/>
+
+      <div class="hobby">
+        <h2 class="subtitle" style="color: #2f4156">Hobby Saya</h2>
+        <div class="content">
+          <ul>
+            <li>Ngoding</li>
+            <li>Main game</li>
+            <li>Jalan-jalan</li>
+          </ul>
+        </div>
+      </div>
+      <br /><br />
+
+      <div class="makanan">
+        <h2 class="subtitle" style="color: #2f4156">My Favorite Saya</h2>
+        <table border="1" style="font-size: 2rem; color: #2f4156">
+          <tr>
+            <th>Makanan</th>
+            <th>Musisi</th>
+            <th>Film</th>
+          </tr>
+          <tr>
+            <td>Tahu Telor</td>
+            <td>Hindia</td>
+            <td>Shrek 2</td>
+          </tr>
+          <tr>
+            <td>Mie Ayam</td>
+            <td>Ado</td>
+            <td>Breaking Bad</td>
+          </tr>
+          <tr>
+            <td>Pangsit Goreng</td>
+            <td>Sheena Ringo</td>
+            <td>Peaky Blinder</td>
+          </tr>
+        </table>
+      </div>
+      <br/><br/>
+
+      <div class="kontak">
+        <h2 class="subtitle" style="color: #2f4156">Kontak Saya</h2>
+        <div class="content">
+          <a>
+            <box-icon type="logo" name="whatsapp" color="black"></box-icon>
+            +62-819-3234-5655</a>
+            <br/>
+          <a href="https://www.instagram.com/gstfrz">
+            <box-icon type="logo" name="instagram" color="black"></box-icon>
+            instagram.com/gstfrz
+          </a><br/>
+          <a href="https://www.linkedin.com/in/andhika-al-fahrezi-366582321/">
+            <box-icon type="logo" name="linkedin" color="black"></box-icon>
+            linkedin.com/in/andhika-al-fahrezi
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
